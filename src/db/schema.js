@@ -1,3 +1,3 @@
 var mysql = require('mysql');
 var Sequelize = require('sequelize');
-var sequelize = new Sequelize('publishus', 'root', '');
+var sequelize = new Sequelize('sern', 'root', '');

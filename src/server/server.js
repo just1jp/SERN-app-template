@@ -12,8 +12,8 @@ app.use(parser.json());
 app.use(express.static(path.resolve(__dirname, '../public')));
 
 // spin up server
-app.listen('3000', function() {
-  console.log('Listening on port 3000');
+app.listen('8000', function() {
+  console.log('Listening on port 8000');
 });
 
 // export app
