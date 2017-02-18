@@ -1,0 +1,39 @@
+{
+  "name": "PublishUs",
+  "version": "1.1.0",
+  "description": "Template for a SERN (MySQL, Express, React, Node) app",
+  "author": "Justin Mendelson",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "start": "webpack --watch | nodemon --ignore node_modules ./src/server/server.js",
+    "test": "mocha --bail spec/server-spec.js"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.9.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.10.1",
+    "mysql": "^2.4.2",
+    "q": "^1.4.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-loader": "^2.4.0",
+    "request": "^2.69.0",
+    "sequelize": "^3.30.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-jest": "^18.0.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "chai": "^3.5.0",
+    "jest": "^18.1.0",
+    "mocha": "2.3.3",
+    "sinon": "1.17.3",
+    "webpack": "^1.14.0"
+  }
+}
